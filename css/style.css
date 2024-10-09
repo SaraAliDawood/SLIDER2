@@ -1,0 +1,35 @@
+
+.content{
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0px;
+    color: white;
+    width: 80%;
+    left: 10%;
+}
+.item{
+    cursor: pointer;
+}
+.overLay{
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.overLayImage{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/2024_02_29_21_37_IMG_3395.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.overLayImage i{
+    font-size: xx-large;  
+    cursor: pointer; 
+}
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
